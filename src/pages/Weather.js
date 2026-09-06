@@ -717,37 +717,37 @@ function Weather() {
       </div>
 
       {/* Navigation Links */}
-      <div className="flex flex-wrap gap-x-8 gap-y-3 text-sm font-medium text-slate-500">
+<div className="flex flex-wrap gap-x-8 gap-y-3 text-sm font-medium text-slate-500">
 
-        <a
-          href="#"
-          className="transition-colors duration-200 hover:text-blue-600"
-        >
-          Home
-        </a>
+  <button
+    type="button"
+    className="transition-colors duration-200 hover:text-blue-600"
+  >
+    Home
+  </button>
 
-        <a
-          href="#"
-          className="transition-colors duration-200 hover:text-blue-600"
-        >
-          Forecast
-        </a>
+  <button
+    type="button"
+    className="transition-colors duration-200 hover:text-blue-600"
+  >
+    Forecast
+  </button>
 
-        <a
-          href="#"
-          className="transition-colors duration-200 hover:text-blue-600"
-        >
-          Weather Map
-        </a>
+  <button
+    type="button"
+    className="transition-colors duration-200 hover:text-blue-600"
+  >
+    Weather Map
+  </button>
 
-        <a
-          href="#"
-          className="transition-colors duration-200 hover:text-blue-600"
-        >
-          About
-        </a>
+  <button
+    type="button"
+    className="transition-colors duration-200 hover:text-blue-600"
+  >
+    About
+  </button>
 
-      </div>
+</div>
     </div>
 
     {/* Footer Bottom */}
